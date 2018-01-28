@@ -792,8 +792,10 @@ background-size: cover
 
 ???
 
-people are often scared to contribute
-encourage them
+* people are often scared to contribute
+* They often think they can't write the needed code, but they can!
+* encourage them
+
 ---
 
 background-image: url(blue-skies.jpg)
@@ -814,6 +816,10 @@ background-size: cover
 ]
 
 .footnote[@bastelsblog for @voxpupuliorg]
+
+???
+
+* TL;DR still people use outdated ruby/puppet versions from time to time :(
 
 ---
 
@@ -836,6 +842,12 @@ background-size: cover
 
 .footnote[@bastelsblog for @voxpupuliorg]
 
+???
+
+* travis cheets for 100: closing/reopen a PR will retrigger travis
+* A project admin can do this in the travis UI, outside-contributors can't
+* close/reopen can be triggered by the PR author
+
 ---
 
 background-image: url(blue-skies.jpg)
@@ -856,6 +868,11 @@ background-size: cover
 ]
 
 .footnote[@bastelsblog for @voxpupuliorg]
+
+???
+
+* we try to get at least a unit test for all new features
+* on a bugfix: Dope to include a test that fails without the patch, but works with it
 
 ---
 
@@ -878,7 +895,11 @@ background-size: cover
 
 .footnote[@bastelsblog for @voxpupuliorg]
 
+???
 
+* everybody is good at blaming others
+* we rarely tell people that they made something good
+* bastelfreak is happy about all new datatypes
 ---
 
 background-image: url(blue-skies.jpg)
@@ -900,6 +921,13 @@ background-size: cover
 
 .footnote[@bastelsblog for @voxpupuliorg]
 
+???
+
+some explanation: bastelfreak noticed in the Archlinux community that people are happy, if you send them sweets
+
+We tried this in the Puppet community as well. Puppet Inc. received 15pounds of sweets for all their encouragement for the community.
+
+You all keep contributing and bastelfreak will send you sweets as well!
 
 ---
 background-image: url(blue-skies.jpg)
@@ -916,7 +944,7 @@ background-size: cover
 .right-column[
 
 
-* voxpupuli is the place to be if something is broken
+* Vox Pupuli is the place to be if something is broken
 
   * puppetlabs-stdlib
 
@@ -929,6 +957,10 @@ background-size: cover
 ]
 
 ???
+
+* story time: Everytime one popular module is broken, people will join the Vox Pupuli IRC channel
+* This happend twice for stdlib (we didn't break it, we just noticed it)
+* bastelfreak once added a breaking change to the systemd module which killed the openstack CI pipelines (happened twice)
 
 ---
 background-image: url(blue-skies.jpg)
@@ -954,6 +986,15 @@ background-size: cover
 
 ]
 
+???
+
+* people are scared about making released because it could break things
+* release as often as possible. Less changes per release -> less broken releases
+
+* people are often scared to merge breaking changes. Merging them is totally okay if you do proper versioning
+* we don't delete broken releases and try to fix it, we just do a new release
+
+* working closely together, listen to users, always be constructive, don't blame others for mistakes, we all break stuff from time to time
 ---
 
 background-image: url(blue-skies.jpg)
